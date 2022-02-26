@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import { MuiThemeProvider, createTheme  } from "@material-ui/core";
 import history from './history';
 import ScrollToTop from "./scrolltotop";
-import LoginScreen from "./screen/LoginScreen";
+// import LoginScreen from "./screen/LoginScreen";
 import SigninScreen from "./screen/SigninScreen";
 import Navbar from "./component/Navbar";
 import Footer from "./component/Footer";
@@ -34,7 +34,7 @@ function App() {
           <Switch>
           
           {!userInfo && <Redirect exact from="/" to="/login" />}
-            <Route exact path="/Login" component={LoginScreen} />
+            {/* <Route exact path="/Login" component={LoginScreen} /> */}
             <Route exact path="/Signin" component={SigninScreen} />
            
             <>

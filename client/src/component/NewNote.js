@@ -60,7 +60,7 @@ function NewNote() {
 
         <Button
           className={classes.btn}
-          style={{ background: "rgb(38 98 137)", color: "#fff" }}
+          style={{ background: "rgb(38 98 137)", color: "#fff" ,width:"100px",}}
           onClick={handleSubmit}
         >
           Post
